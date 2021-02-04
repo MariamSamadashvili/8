@@ -1,9 +1,22 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 /*header css*/
 header {
 	background-color: #fff;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	justify-content: space-between;
-	align-items: center;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
 	padding: 21px 98px;
 	position: fixed;
 	top: 0;
@@ -15,6 +28,8 @@ body {
 	padding-top: 102px;
 }
 .ul {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
 }
 .ul > li:nth-child(1), li:nth-child(2), li:nth-child(3) {
@@ -24,8 +39,12 @@ body {
 	font-size: 24px;
 	color: #3D58A6;
 	text-transform: uppercase;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
 }
 .icon-div {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
 }
 .icon-div > i:nth-child(1), i:nth-child(2) {
@@ -76,6 +95,8 @@ body {
 	bottom: 22px;
 	left: 30px;
 	line-height: 1.2;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
 }
 .sec1-p2 {
 	color: #E6E6E6;
@@ -83,6 +104,8 @@ body {
 	position: absolute;
 	bottom: 22px;
 	right: 30px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
 }
 /*section#2 css*/
 .sec2 {
@@ -98,22 +121,36 @@ body {
 	width: 570px;
 	height: 320px;
 	background-color: #fff;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	justify-content: center;
-	align-items: center;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
 }
 .sec2-container {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	justify-content: space-between;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
 	margin-top: 28px;
 }
 .sec2-h3 {
 	color: #fff;
 	font-size: 24px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
 }
 .sec2-p {
 	color: #231F20;
 	font-size: 17px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
 }
 /*section#3 css*/
 .sec3 {
@@ -126,8 +163,12 @@ body {
 	margin: 0 auto;
 }
 .sec3-container {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	justify-content: space-between;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
 	margin-top: 27px;
 }
 .sec3-image {
@@ -137,11 +178,15 @@ body {
 .sec3-h3 {
 	color: #3D58A6;
 	font-size: 24px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
 }
 .sec3-p {
 	color: #333333;
 	font-size: 22px;
 	margin: 14px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
 }
 /*section#4 css*/
 .sec4 {
@@ -156,10 +201,16 @@ body {
 .sec4-h3 {
 	color: #000;
 	font-size: 24px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
 }
 .sec4-container {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	justify-content: space-between;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
 	margin-top: 29px;
 }
 .sec4-box {
@@ -169,8 +220,11 @@ body {
 	padding-left: 20px;
 }
 .sec4-boxdiv {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	justify-content: space-around;
+	-ms-flex-pack: distribute;
+	    justify-content: space-around;
 	margin-top: 12px;
 }
 .sec4-p {
@@ -179,32 +233,48 @@ body {
 	line-height: 1.1;
 	font-size: 20px;
 	color: #333;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
 }
 .read {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	justify-content: flex-end;
+	-webkit-box-pack: end;
+	    -ms-flex-pack: end;
+	        justify-content: flex-end;
 	margin-right: 28px;
 	margin-bottom: 15px;
 }
 .a {
 	color: #3D58A6;
 	font-size: 14px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
 }
 .sec4-h4 {
 	font-size: 22px;
 	color: #3D58A6;
 	letter-spacing: 0.55;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
 }
 /*footer css*/
 .p {
 	color: #333333;
 	font-size: 12px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
 }
 .footer-div {
 	width: 1170px;
 	margin: 0 auto;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	justify-content: space-between;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
 }
 .footer {
 	padding: 22px 0;
